@@ -1,3 +1,5 @@
 mysql！！
 
 mysql最难的是搜索优化！！
+
+mysql中等难度的是sql语句
