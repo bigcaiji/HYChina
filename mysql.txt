@@ -1,7 +1,0 @@
-mysql！！
-
-mysql最简单的是概念！！
-
-mysql最难的是搜索优化！！
-
-mysql中等难度的是sql语句
