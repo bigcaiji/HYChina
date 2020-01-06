@@ -1,0 +1,27 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: eureka-server
+  security:
+    user:
+      name: admin
+      password: 123
+
+#eureka的配置项有3类:
+#client,instance,server
+eureka:
+  instance:
+    hostname: localhost
+
+
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    enable-self-preservation: true #线上阶段应该打开自我保护机制,避免因为网络抖动(网络分区故障)而产生的服务剔除
+    renewal-percent-threshold: 0.85 #服务续约的比例,服务列表
+    eviction-interval-timer-in-ms: 5000
+
