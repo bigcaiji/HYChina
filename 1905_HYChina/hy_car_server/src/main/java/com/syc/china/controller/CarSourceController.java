@@ -73,7 +73,7 @@ public class CarSourceController {
 
 
     //修改车源信息
-    @PostMapping("/update")
+    @PutMapping("/update")
     public  ResponseEntity<Boolean> updateCarSource(@RequestBody CarSource carSource){
         Boolean i = carSourceService.updateCarSource(carSource);
         return  ResponseEntity.ok(i);
