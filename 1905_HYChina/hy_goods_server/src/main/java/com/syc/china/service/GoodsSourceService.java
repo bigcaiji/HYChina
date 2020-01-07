@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -40,6 +41,7 @@ public class GoodsSourceService {
 
     public void insert(GoodsSource goodsSource) {
         try {
+            goodsSource.setCreateTime(new Date());
             goodsSourceMapper.insert(goodsSource);
         }catch (Exception e){
             throw new HyException(ExceptionEnums.UNKNOWN_ERROR);
