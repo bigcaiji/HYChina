@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338b0750-45b1-4171-aa4b-db8366a85600" name="Default" comment="project">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_car_server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/advice/CommonExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/dto/ExceptionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/enums/ExceptionEnums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/exception/WlkgException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/vo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_config_conter/src/main/resources/dev/car-server-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_config_conter/src/main/resources/dev/user-server-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_goods_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_goods_server/src/main/java/com/syc/china/GoodsServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_user_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_user_server/src/main/java/com/syc/china/UserServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_user_server/src/main/resources/bootstrap.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Hychina_portal/Hychina_portal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_eureka_center/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy_eureka_center/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_zuul_server/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy_zuul_server/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_car_info/hy_car_info.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_car_info/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy_car_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_car_info/src/main/java/com/syc/china/CarServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_car_server/src/main/java/com/syc/china/CarServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy_commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/util/CookieUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_zuul_server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy_zuul_server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,6 +36,10 @@
     <ignored path="$PROJECT_DIR$/hy_monitor_admin/target/" />
     <ignored path="$PROJECT_DIR$/hy_business/target/" />
     <ignored path="$PROJECT_DIR$/hy_car_info/target/" />
+    <ignored path="$PROJECT_DIR$/hy_goods_info/target/" />
+    <ignored path="$PROJECT_DIR$/hy_user_server/target/" />
+    <ignored path="$PROJECT_DIR$/hy_car_server/target/" />
+    <ignored path="$PROJECT_DIR$/hy_goods_server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,46 +71,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hy_monitor_admin/src/main/java/com/syc/china/MonitorAdminApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1892">
-              <caret line="86" column="2" selection-start-line="86" selection-start-column="2" selection-end-line="86" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Hychina_portal/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Hychina_portal/Hychina_portal.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/hy_car_server/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="132">
+              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hy_user_server/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -113,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/hy_eureka_center/src/main/java/com/syc/china/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/hy_eureka_center/pom.xml" />
         <option value="$PROJECT_DIR$/hy_eureka_center/src/main/java/com/syc/china/config/SecurityConfig.java" />
@@ -127,7 +121,6 @@
         <option value="$PROJECT_DIR$/hy_zuul_server/src/main/java/com/syc/china/ZuulServerApplication.java" />
         <option value="$PROJECT_DIR$/hy_config_conter/src/main/resources/dev/monitor-server-dev.yml" />
         <option value="$PROJECT_DIR$/hy_monitor_admin/src/main/java/com/syc/china/MonitorAdminAppliation.java" />
-        <option value="$PROJECT_DIR$/hy_zuul_server/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/hy_eureka_center/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/util/CookieUtils.java" />
         <option value="$PROJECT_DIR$/hy_monitor_admin/src/main/java/com/syc/china/MonitorAdminApplication.java" />
@@ -135,6 +128,22 @@
         <option value="$PROJECT_DIR$/hy_monitor_admin/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/hy_monitor_admin/src/main/java/com/syc/china/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/hy_commons/pom.xml" />
+        <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/exception/WlkgException.java" />
+        <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/enums/ExceptionEnums.java" />
+        <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/vo/PageResult.java" />
+        <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/dto/ExceptionResult.java" />
+        <option value="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/advice/CommonExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/hy_zuul_server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hy_config_conter/src/main/resources/dev/user-server-dev.yml" />
+        <option value="$PROJECT_DIR$/hy_config_conter/src/main/resources/dev/car-server-dev.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hy_user_server/src/main/java/com/syc/china/UserServerApplication.java" />
+        <option value="$PROJECT_DIR$/hy_car_server/src/main/java/com/syc/china/CarServiceApplication.java" />
+        <option value="$PROJECT_DIR$/hy_user_server/pom.xml" />
+        <option value="$PROJECT_DIR$/hy_user_server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hy_car_server/pom.xml" />
+        <option value="$PROJECT_DIR$/hy_car_server/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -161,10 +170,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="522" />
-    <option name="y" value="212" />
-    <option name="width" value="1502" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-14" />
+    <option name="y" value="7" />
+    <option name="width" value="1223" />
     <option name="height" value="990" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -173,8 +182,134 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_car_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_car_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_car_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_car_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_car_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_car_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="syc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_car_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="syc" type="462c0819:PsiDirectoryNode" />
+              <item name="china" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_car_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_user_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_user_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_user_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_user_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_zuul_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_zuul_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_zuul_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1905_HYChina" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1905_HYChina" type="462c0819:PsiDirectoryNode" />
+              <item name="hy_zuul_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -186,7 +321,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -203,11 +338,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ttt34\Desktop\myproject\1905_HYChina\hy_commons\src\main\java\com\syc\china" />
       <recent name="F:\1906works\1905_HYChina\hy_config_conter\src\main\resources\pro" />
       <recent name="F:\1906works\1905_HYChina\hy_config_conter\src\main\resources\dev" />
       <recent name="F:\1906works\1905_HYChina\hy_monitor_admin\src\main\resources" />
       <recent name="F:\1906works\1905_HYChina\hy_config_conter\src\main\resources\test" />
-      <recent name="F:\1906works\1905_HYChina\hy_zuul_server\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,6 +383,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy_car_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.syc.china.CarServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hy_config_conter" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.syc.china.ConfigServerApplication" />
@@ -268,6 +410,13 @@
       <module name="hy_monitor_admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.syc.china.MonitorAdminApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy_user_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.syc.china.UserServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -294,6 +443,8 @@
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ZuulServerApplication" />
       <item itemvalue="Spring Boot.MonitorAdminApplication" />
+      <item itemvalue="Spring Boot.UserServerApplication" />
+      <item itemvalue="Spring Boot.CarServiceApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -317,7 +468,8 @@
       <workItem from="1578357807848" duration="791000" />
       <workItem from="1578358804166" duration="4475000" />
       <workItem from="1578363319116" duration="1677000" />
-      <workItem from="1578368233390" duration="193000" />
+      <workItem from="1578368233390" duration="1522000" />
+      <workItem from="1578375747092" duration="2607000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <created>1578312637970</created>
@@ -368,17 +520,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578362481275</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="project">
+      <created>1578368501402</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578368501402</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19791000" />
+    <option name="totallyTimeSpent" value="23727000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="474" y="61" width="984" height="792" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41450217" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22281879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -401,7 +560,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3280507" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.1822504" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.044313148" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -453,13 +612,13 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="project" />
     <MESSAGE value="wctj" />
     <MESSAGE value="carinfo" />
     <MESSAGE value="car-info" />
     <MESSAGE value="monitor_admin" />
     <MESSAGE value="pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml" />
+    <MESSAGE value="project" />
+    <option name="LAST_COMMIT_MESSAGE" value="project" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -517,20 +676,6 @@
     <entry file="file://$PROJECT_DIR$/hy_config_conter/src/main/resources/pro/zuul-server-pro.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hy_zuul_server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_config_conter/src/main/resources/dev/zuul-server-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hy_config_conter/src/main/resources/pro/monitor-server-pro.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -547,58 +692,6 @@
             <element signature="e#417#418#0" expanded="true" />
             <element signature="e#489#490#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_config_conter/src/main/resources/dev/monitor-server-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_config_conter/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_config_conter/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/util/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_zuul_server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_car_info/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hy_car_info/src/main/java/com/syc/china/CarServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -673,13 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="86" column="2" selection-start-line="86" selection-start-column="2" selection-end-line="86" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Hychina_portal/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -692,8 +778,205 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="198">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/util/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/exception/WlkgException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/vo/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/enums/ExceptionEnums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/dto/CartDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/dto/ExceptionResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_commons/src/main/java/com/syc/china/advice/CommonExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_goods_server/src/main/java/com/syc/china/GoodsServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_goods_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_config_conter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_config_conter/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_config_conter/src/main/resources/dev/car-server-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_config_conter/src/main/resources/dev/monitor-server-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_config_conter/src/main/resources/dev/user-server-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_config_conter/src/main/resources/dev/zuul-server-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_user_server/hy_user_server.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_user_server/src/main/java/com/syc/china/UserServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_car_server/src/main/java/com/syc/china/CarServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_zuul_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_zuul_server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_car_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_user_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="23" column="21" selection-start-line="15" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_user_server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hy_car_server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -749,7 +1032,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Hychina_portal</last-edited>
+          <last-edited>hy_user_server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
