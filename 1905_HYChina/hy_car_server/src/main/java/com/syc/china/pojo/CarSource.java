@@ -21,8 +21,9 @@ public class CarSource {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private Long userId;
     private Integer carType;
-    private Integer wight;
+    private Integer weight;
     private Integer lineType;
     private String startPlace;
     private String endPlace;

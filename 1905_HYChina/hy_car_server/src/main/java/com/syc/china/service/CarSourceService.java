@@ -2,6 +2,7 @@ package com.syc.china.service;
 
 import com.syc.china.pojo.CarSource;
 import com.syc.china.service.impl.CarSourceServiceImpl;
+import com.syc.china.vo.PageResult;
 
 /**
  * @author 王聪
@@ -11,11 +12,15 @@ import com.syc.china.service.impl.CarSourceServiceImpl;
 public interface CarSourceService  {
 
 
-    void queryCarSourceBypage(Integer page, Integer rows);
+    PageResult<CarSource> queryCarSourceByPage(Integer page, Integer rows);
 
     CarSource queryCarSourceById(Long id);
 
     Boolean deleteCarSource(Long id);
 
     void addCarSource(CarSource carSource);
+
+    Boolean updateCarSource(CarSource carSource);
+
+    PageResult<CarSource> queryByUserId(Long userId, Integer page, Integer rows);
 }
