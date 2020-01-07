@@ -9,6 +9,7 @@
         <module name="hy_monitor_admin" />
         <module name="hy_eureka_center" />
         <module name="hy_zuul_server" />
+        <module name="hy_car_info" />
         <module name="hy_commons" />
         <module name="hy_config_conter" />
         <module name="hy_business" />
@@ -18,6 +19,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hy_business" options="-parameters" />
+      <module name="hy_car_info" options="-parameters" />
       <module name="hy_commons" options="-parameters" />
       <module name="hy_config_conter" options="-parameters" />
       <module name="hy_eureka_center" options="-parameters" />
