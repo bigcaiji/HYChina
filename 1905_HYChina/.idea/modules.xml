@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Hychina_portal/Hychina_portal.iml" filepath="$PROJECT_DIR$/../Hychina_portal/Hychina_portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HYChina_portal/HYChina_portal.iml" filepath="$PROJECT_DIR$/../HYChina_portal/HYChina_portal.iml" />
     </modules>
   </component>
 </project>
