@@ -18,6 +18,7 @@ public class GoodsSource {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private Long userId;
     private Integer goodsType;
     private Integer weight;
     private String startPlace;
