@@ -20,8 +20,8 @@ zuul:
   prefix: /api # 添加路由前缀
   retryable: true
   routes:
-    car-service: /car/**  #将商品微服务映射到/item/**
-    user-service: /user/**   #将搜索微服务映射到/search/**
+    car-server: /car/**  #将商品微服务映射到/item/**
+    user-server: /user/**   #将搜索微服务映射到/search/**
   #       custom-sensitive-headers: true
   #       sensitive-headers:
   #  ignored-services: '*'
