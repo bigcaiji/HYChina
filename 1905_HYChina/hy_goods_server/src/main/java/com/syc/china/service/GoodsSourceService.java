@@ -41,7 +41,6 @@ public class GoodsSourceService {
 
     public void insert(GoodsSource goodsSource) {
         try {
-            goodsSource.setCreateTime(new Date());
             goodsSourceMapper.insert(goodsSource);
         }catch (Exception e){
             throw new HyException(ExceptionEnums.UNKNOWN_ERROR);

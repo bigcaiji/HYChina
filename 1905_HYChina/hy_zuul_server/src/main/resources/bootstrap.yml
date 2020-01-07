@@ -21,6 +21,7 @@ zuul:
   retryable: true
   routes:
     car-server: /car/**  #将商品微服务映射到/item/**
+    goods-server: /goods/**
     user-server: /user/**   #将搜索微服务映射到/search/**
   #       custom-sensitive-headers: true
   #       sensitive-headers:
