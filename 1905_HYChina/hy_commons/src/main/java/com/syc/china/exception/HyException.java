@@ -11,6 +11,6 @@ import lombok.NoArgsConstructor;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class WlkgException extends RuntimeException {
+public class HyException extends RuntimeException {
     private ExceptionEnums exceptionEnums;
 }

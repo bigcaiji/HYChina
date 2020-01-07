@@ -16,6 +16,20 @@ eureka:
       #defaultZone: http://localhost:8761/eureka/
       defaultZone: http://admin:123@localhost:8761/eureka/
 
+zuul:
+  prefix: /api # 添加路由前缀
+  retryable: true
+  routes:
+    car-server: /car/**  #将商品微服务映射到/item/**
+    user-server: /user/**   #将搜索微服务映射到/search/**
+  #       custom-sensitive-headers: true
+  #       sensitive-headers:
+  #  ignored-services: '*'
+  #ignored-patterns: /upload/**
+  #ignored-services:
+  #  - upload-service  # 忽略upload-service服务
+  #add-host-header: true # 携带请求本身的host头信息
+  #sensitive-headers:    # 禁止使用的头信息,设置为null,否则set-cookie无效
 
 #actuator设置
 management:

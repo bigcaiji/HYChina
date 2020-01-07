@@ -1,6 +1,6 @@
 spring:
   application:
-    name: user-server
+    name: goods-server
   profiles:
     active: dev
   cloud:
@@ -27,6 +27,6 @@ eureka:
       defaultZone: http://admin:123@localhost:8761/eureka/
 
 
-#mybatis:
-#  configuration:
-#    map-underscore-to-camel-case: true
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

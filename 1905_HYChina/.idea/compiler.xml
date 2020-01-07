@@ -10,10 +10,10 @@
         <module name="hy_eureka_center" />
         <module name="hy_car_server" />
         <module name="hy_zuul_server" />
-        <module name="hy_business" />
         <module name="hy_commons" />
         <module name="hy_config_conter" />
         <module name="hy_user_server" />
+        <module name="hy_business" />
         <module name="hy_goods_server" />
       </profile>
     </annotationProcessing>
