@@ -16,6 +16,7 @@
         <module>hy_commons</module>
         <module>hy_monitor_admin</module>
         <module>hy_business</module>
+        <module>hy_car_info</module>
     </modules>
 
     <!--想让本项目成为spring-boot项目,怎么办?-->
