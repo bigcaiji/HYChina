@@ -48,64 +48,44 @@
                     <tr>
                         <td width="100" height="65"><p>会 员 类 型</p></td>
                         <td><div class="form-item">
-
-
-                            <input type="radio" name="member_group" value="1">
+                            <input type="radio" name="member_group" value="0">
                             <p>生产企业</p>
 
-
-
-
-
-
-                            <input type="radio" name="member_group" value="2" style="margin-left: 20px;!important;">
+                            <input type="radio" name="member_group" value="1" style="margin-left: 20px;!important;">
                             <p>经营企业</p>
 
-                            <input type="radio" name="member_group" value="3" style="margin-left: 20px;!important;">
+                            <input type="radio" name="member_group" value="2" style="margin-left: 20px;!important;">
                             <p>个人车主</p>
 
-
-
-
-
-
-                            <input type="radio" name="member_group" value="4" style="margin-left: 20px;!important;">
+                            <input type="radio" name="member_group" value="3" style="margin-left: 20px;!important;">
                             <p>企业车主</p>
                             <br />
+                            <br />
+                        </div></td>
+                    </tr>
 
+                    <tr>
+                        <td width="100" height="65"><p>公 司 类 型</p></td>
+                        <td><div class="form-item">
 
-
-                            <input type="radio" name="member_group" value="5">
+                            <input type="radio" name="company_group" value="0">
                             <p>物流信息公司</p>
 
-
-
-
-
-
-                            <input type="radio" name="member_group" value="6" style="margin-left: 20px;!important;">
+                            <input type="radio" name="company_group" value="1" style="margin-left: 20px;!important;">
                             <p>国际物流公司</p>
 
-
-
-
-
-
-                            <input type="radio" name="member_group" value="7" style="margin-left: 20px;!important;">
+                            <input type="radio" name="company_group" value="2" style="margin-left: 20px;!important;">
                             <p>船舶运输</p>
 
-                            <input type="radio" name="member_group" value="8" style="margin-left: 20px;!important;">
+                            <input type="radio" name="company_group" value="3" style="margin-left: 20px;!important;">
                             <p>火车运输</p>
 
-                            <input type="radio" name="member_group" value="9" style="margin-left: 20px;!important;">
+                            <input type="radio" name="company_group" value="4" style="margin-left: 20px;!important;">
                             <p>航空运输</p>
 
-                            <input type="radio" name="member_group" value="10" style="margin-left: 20px;!important;">
+                            <input type="radio" name="company_group" value="5" style="margin-left: 20px;!important;">
                             <p>其他</p>
-
                             <br />
-
-
                         </div></td>
                     </tr>
                     <tr>
@@ -143,6 +123,10 @@
                     <tr>
                         <td height="65"><p>公司名称/个人业务介绍</p></td>
                         <td><input name="enterprise" type="text" placeholder="请输入公司名称/个人业务介绍" class="re-input" /></td>
+                    </tr>
+                    <tr>
+                        <td height="65"><p>推荐人手机号</p></td>
+                        <td><input name="recommender" type="text" placeholder="请输入推荐人手机号" class="re-input" /></td>
                     </tr>
                     <tr>
                         <td height="40" colspan="2" style="text-align:center;"><div class="erg_prot">
@@ -207,7 +191,7 @@
         if(_wait==60){
             $.ajax({
                 type : 'post',
-                url : '/getMobileCode',
+                url : '/user/getMobileCode',
                 data : "number=1&mobile=" + byId("member_mobile").value,
                 success : function(data) {
                     if ($.trim(data) == "success") {
