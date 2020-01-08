@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: business-server
+  profiles:
+    active: dev
+  cloud:
+    config:
+      discovery:
+        service-id: config-server
+        enabled: true #开启配置服务功能
+      fail-fast: true
+
+eureka:
+  client:
+    service-url:
+      #defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://admin:123@localhost:8761/eureka/
+
+#actuator设置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" #暴露所有端点,默认是info和health
+  endpoint:
+    health:
+      show-details: always #默认是never

@@ -51,6 +51,12 @@
             <artifactId>tomcat-embed-core</artifactId>
             <version>8.5.37</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.46</version>
+        </dependency>
     </dependencies>
 
 </project>

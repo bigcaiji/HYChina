@@ -7,5 +7,14 @@
 *.iml
 out
 gen
+/.apt_generated/
+/.classpath
+/.factorypath
+/.project
+/.settings/
+/.springBeans
 /target/
-.idea/ workspace.xml
+/.gitignore
+/user-profile-analysis.iml
+/README.md
+.DS_Store
