@@ -17,10 +17,10 @@ spring:
         #  password:
   #rabbitmq的配置
   rabbitmq:
-    host: 192.168.17.120
-    username: wlkg
-    password: 123456
-    virtual-host: /wlkg
+    host: 192.168.79.120
+    username: guest
+    password: guest
+    virtual-host: /
     port: 15672
 eureka:
   client:
