@@ -21,7 +21,6 @@ spring:
     username: wlkg
     password: 123456
     virtual-host: /wlkg
-    port: 15672
 eureka:
   client:
     service-url:
