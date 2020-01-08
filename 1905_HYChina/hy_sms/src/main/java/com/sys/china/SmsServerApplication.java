@@ -1,18 +1,17 @@
-package com.syc.china;
+package com.sys.china;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import tk.mybatis.spring.annotation.MapperScan;
 
 /**
- *
+ * @author 汪梦瑶
+ * @create  2020-01-07 16:58
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan(basePackages = "com.syc.china.mapper")
-public class UserServerApplication {
+public class SmsServerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(UserServerApplication.class,args);
+        SpringApplication.run(SmsServerApplication.class,args);
     }
 }
