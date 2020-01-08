@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: sms-server
+  profiles:
+    active: dev
+  cloud:
+    config:
+      discovery:
+        service-id: config-server
+        enabled: true #开启配置服务功能
+      fail-fast: true
+
+  rabbitmq:
+    host: 192.168.254.111
+    username: wlkg
+    password: 123456
+    virtual-host: /wlkg
+
+hychina:
+  sms:
+    accessKeyId: LTAI4Fs2zZdnfUtCkw6SXEZS
+    accessKeySecret: iUog304TocpMW5JzmWsVujv4nIVL90
+    signName: wlkg商城
+    verifyCodeTemplate: SMS_181195234
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://admin:123@localhost:8761/eureka/
