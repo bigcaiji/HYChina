@@ -1,10 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
 </head>
+<style>
+    html,body,#app{
+		width: 100%;
+		height:100%;
+		margin: 0;
+		padding:0;
+	}
+	#app{
+		/*display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;*/
+	}
+	.loginbox{
+		width:600px;
+		height:350px;
+		position:absolute;
+		top:0;
+		right:0;
+		left:0;
+		bottom:0;
+		margin:160px auto auto auto;
+		border:1px solid #ccc;
+		border-radius: 10px;
+	}
+	.loginbox{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+	}
+	.loginform{
+		width:80%;
+	}
+	.registerbox{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+</style>
+
 <body>
-<h1>login</h1>
+    <div id="app">
+        <div class="loginbox" v-loading='pageLoading'>
+            <h3>账户登录</h3>
+            <el-form class="loginform" :model="form" label-width="40px">
+                <el-form-item label="账号">
+                    <el-input v-model="form.account"></el-input>
+                </el-form-item>
+                <el-form-item label="密码">
+                    <el-input type="password" v-model="form.pwd"></el-input>
+                </el-form-item>
+                <div class="registerbox">
+                    <el-button type='text' @click='findpwd' size='mini'>忘记登录密码</el-button>
+                    <el-button type='text' @click="register" size='mini'>免费注册</el-button>
+                </div>
+                <el-button type="primary" style='width:100%;' @click="login">登 录</el-button>
+                <!-- <el-form-item>
+                    <el-button type="primary" style='width:100%;' @click="onSubmit">登 录</el-button>
+                </el-form-item> -->
+            </el-form>
+        </div>
+        <el-dialog v-loading="pageLoading" title="密码找回" :visible.sync="dialogFormVisible">
+            <el-form :model="findform">
+                <el-form-item label="找回账号" :label-width="formLabelWidth">
+                    <el-input v-model="findform.account" autocomplete="off"></el-input>
+                </el-form-item>
+                <el-form-item label="绑定手机号" :label-width="formLabelWidth">
+                    <el-input v-model="findform.phone" autocomplete="off"></el-input>
+                </el-form-item>
+
+
+                <el-form-item label="设定新密码" :label-width="formLabelWidth">
+                    <el-input v-model="findform.newpwd" autocomplete="off"></el-input>
+                </el-form-item>
+
+
+                <el-form-item label="确认新密码" :label-width="formLabelWidth">
+                    <el-input v-model="findform.confirmpwd" autocomplete="off"></el-input>
+                </el-form-item>
+            </el-form>
+            <div slot="footer" class="dialog-footer">
+                <el-button @click="dialogFormVisible = false">取 消</el-button>
+                <el-button type="primary" @click="findpwdevent">找 回</el-button>
+            </div>
+        </el-dialog>
+    </div>
 </body>
+
 </html>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+var vm = new Vue({
+    el: '#app',
+    data() {
+        return {
+            dialogFormVisible: false,
+            pageLoading: false,
+            form: {
+                account: '',
+                pwd: '',
+            },
+            findform: {
+                account:'',
+                phone:'',
+                newpwd:'',
+                confirmpwd:'',
+            },
+            formLabelWidth: '120px',
+        }
+    },
+    methods: {
+        login() {
+            let _this = this;
+            this.pageLoading = true;
+            $.ajax({
+                url: '',
+                type: 'post',
+                data: {
+
+                },
+                success(result) {
+                    //callback
+                    _this.pageLoading = false;
+
+                },
+                error(error) {
+                    console.error(error);
+                    _this.pageLoading = false;
+                }
+            })
+        },
+        register() {
+        	window.location.href = 'register.html'
+        },
+        findpwd() {
+        	this.dialogFormVisible = true;
+        },
+        findpwdevent(){
+        	let _this = this;
+            this.pageLoading = true;
+            $.ajax({
+                url: '',
+                type: 'post',
+                data: {
+
+                },
+                success(result) {
+                    //callback
+                    _this.pageLoading = false;
+
+                },
+                error(error) {
+                    console.error(error);
+                    _this.pageLoading = false;
+                }
+            })
+        }
+    }
+});
+</script>
