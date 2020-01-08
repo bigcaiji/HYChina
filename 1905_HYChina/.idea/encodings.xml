@@ -8,7 +8,9 @@
     <file url="file://$PROJECT_DIR$/hy_config_conter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy_eureka_center" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy_goods_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hy_log_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy_monitor_admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hy_sms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy_user_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hy_zuul_server" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

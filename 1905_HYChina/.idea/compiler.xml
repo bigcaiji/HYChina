@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hy_sms" />
         <module name="hy_monitor_admin" />
         <module name="hy_eureka_center" />
         <module name="hy_car_server" />
         <module name="hy_zuul_server" />
+        <module name="hy_log_server" />
         <module name="hy_commons" />
         <module name="hy_config_conter" />
         <module name="hy_user_server" />
@@ -26,7 +28,9 @@
       <module name="hy_config_conter" options="-parameters" />
       <module name="hy_eureka_center" options="-parameters" />
       <module name="hy_goods_server" options="-parameters" />
+      <module name="hy_log_server" options="-parameters" />
       <module name="hy_monitor_admin" options="-parameters" />
+      <module name="hy_sms" options="-parameters" />
       <module name="hy_user_server" options="-parameters" />
       <module name="hy_zuul_server" options="-parameters" />
     </option>
