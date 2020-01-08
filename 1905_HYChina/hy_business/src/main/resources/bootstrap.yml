@@ -9,7 +9,12 @@ spring:
         service-id: config-server
         enabled: true #开启配置服务功能
       fail-fast: true
-
+  rabbitmq:
+    host: 192.168.17.120
+    username: wlkg
+    password: 123456
+    virtual-host: /wlkg
+    port: 5672
 eureka:
   client:
     service-url:
